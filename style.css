@@ -27,7 +27,7 @@
     }
 
     .cabezera_titulo{
-        font-size: 3rem;
+        font-size: 5rem;
         z-index: 10;
     }
     
@@ -96,20 +96,20 @@
     }
 
     .texto_titulo{
-        font-size: 4rem;
+        font-size: 7rem;
     }
 
     .texto_subtitulo{
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
 
     .texto_subtitulo span{
-        font-size: 2.5rem;
+        font-size: 5rem;
         color: red;
     }
 
     .texto_parrafo{
-        font-size: 1.2rem;
+        font-size: 2.8rem;
     }
 
     .presentacion_boton{
@@ -2817,4 +2817,5 @@
         margin: 0 2rem;
     }
 }
+
 
