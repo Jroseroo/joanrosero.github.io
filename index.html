@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PORTFOLIO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <body>
+        <!--SECCIÓN MENU-->
+        <header class="cabezera" id="cabecera">
+            <nav class="cabezera_menu" id="cabeceraMenu">
+                <h3 class="cabezera_titulo" id="tituloHeader">Joan Rosero Web.</h3>
+                <ul class="cabezera_lista" id="cabezeraLista">
+                    <li class="elemento_lista">
+                        <a href="#presentacion" class="link_lista">ABOUT</a>
+                    </li>
+                    <li class="elemento_lista">
+                        <a href="#skills" class="link_lista">SKILLS</a>
+                    </li>
+                    <li class="elemento_lista">
+                        <a href="#proyectos" class="link_lista">PROJECTS</a>
+                    </li>
+                    <li class="elemento_lista">
+                        <a href="#education" class="link_lista">EDUCATION</a>
+                    </li>
+                    <li class="elemento_lista">
+                        <a href="#certificados" class="link_lista">CERTIFICATED</a>
+                    </li>
+                    <li class="elemento_lista">
+                        <a href="#contacto" class="link_lista">CONTACT</a>
+                    </li>
+                </ul>
+                <img src="/imagenes/iconoMenu.png" alt="" class="iconoMenu" id="iconoMenu">
+                <img src="/imagenes/iconoCerrar.png" alt="" class="cerrarMenu" id="cerrarMenu">
+            </nav>
+        </header>
+
+        <!--SECCIÓN PRESENTACIÓN-->
+
+        <main class="zona_presentacion"  id="presentacion">
+            <div class="contenido_presentacion">
+                <div class="presentacion_texto">
+                    <h3 class="texto_subtitulo">Hi, I´m</h3>
+                    <h1 class="texto_titulo">Joan Rosero</h1>
+                    <h3 class="texto_subtitulo">and I´m <span>Web Development</span></h3>
+                    <p class="texto_parrafo">Hi! everyone my name is Joan Rosero, I´m 22 years old. Rigth now I study Web Development in Medac Academy. 
+                    On the last years I discovered my passion for the web development and I´m trying to learn as much as I can.</p> 
+                    <a href="MiCV.pdf.pdf" target="_blank" class="presentacion_boton">DOWNLOAD CV</a>
+                </div>
+                <!--
+                <div class="presentacion_foto">
+                    <img src="/imagenes/joanSinFondo.png" alt="">
+                </div>
+            -->
+            </div>
+        </main>
+
+        <!--SECCIÓN SKILLS-->
+        <div class="zona_skills" id="skills">
+            <h1 class="texto_titulo Tskill">My Skills</h1>
+            <div class="contenido_skills">
+                <div class="skills_box">
+                    <img src="/imagenes/frontw.png" alt="" class="icono_skill">
+                    <h3 class="texto_subtitulo ">FrontEnd</h3>
+                    <h4 class="texto_skills">HTML</h4>
+                    <h4 class="texto_skills">CSS</h4>
+                    <h4 class="texto_skills">JavaScript</h4>
+                </div>
+                <div class="skills_box">
+                    <img src="/imagenes/databasew.png" alt="" class="icono_skill">
+                    <h3 class="texto_subtitulo ">BackEnd</h3>
+                    <h4 class="texto_skills">Java</h4>
+                    <h4 class="texto_skills">PHP</h4>
+                    <h4 class="texto_skills">MySQL</h4>
+                </div>
+                <div class="skills_box">
+                    <img src="/imagenes/wordpressw.png" alt="" class="icono_skill">
+                    <h3 class="texto_subtitulo">WordPress</h3>
+                    <h4 class="texto_skills">Elementor</h4>
+                    <h4 class="texto_skills">Divi</h4>
+                    <h4 class="texto_skills">Grid</h4>
+                </div>
+            </div> 
+        </div>
+
+        <!--SECCIÓN PROJECTOS-->
+        <div class="zona_proyectos" id="proyectos">
+            <h1 class="texto_titulo Tprojectos">My Projects</h1>
+            <div class="contenido_proyectos">
+                <div class="box_proyects">
+                    <img src="/imagenes/proyectoRelojJS.png" alt="">
+                    <div class="project_text">
+                            <h1 class="project_title">Reloj Digital</h1>
+                            <p class="project_description">Reloj digital hecho con JavaScript, HTML y CSS.</p>
+                            <a href="/proyectos/reloj/index.html" target="_blank" class="text_enlace">VER</a>  
+                    </div>
+                </div>
+
+                <div class="box_proyects">
+                    <img src="/imagenes/calculadora.png" alt="">
+                    <div class="project_text_dos">
+                            <h1 class="project_title">Calculadora</h1>
+                            <p class="project_description">Calculadora construida con HTML, CSS y JavaScript.</p>
+                            <a href="/proyectos/Calculadora/index.html" target="_blank" class="text_enlace">VER</a>  
+                    </div>
+                </div>
+
+                <div class="box_proyects wordle">
+                    <img src="/imagenes/WordleGame.png" alt="" id="">
+                    <div class="project_text_tres">
+                            <h1 class="project_title">Wordle</h1>
+                            <p class="project_description">Juego de wordle hecho con Java</p>
+                            <a href="/proyectos/WordleGame Web/index.html" target="_blank" class="text_enlace">VER</a>  
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--ZONA EDUCACIÓN-->
+        <div class="zona_educacion" id="education">
+            <h1 class="texto_titulo Teducation">My Education</h1>
+            <div class="contenido_educacion">
+                <div class="box_education">
+                        <img src="/imagenes/icons8-diploma-2-96.png" alt="">
+                        <div class="box_text">
+                            <h1 class="titulo_education">Grado medio en <span>Sistemas Microinformáticos y Redes</span></h1>
+                            <h1 class="centro_education">I.E.S. Medina Azahara</h1>
+                            <h1 class="date_education">2019 / <span>2021</span></h1>
+                        </div>
+                </div>
+                <div class="box_education">
+                        <img src="/imagenes/icons8-diploma-2-96.png" alt="">
+                        <div class="box_text">
+                            <h1 class="titulo_education">Grado superior en <span>Administración de Sistemas Informáticos y redes</span></h1>
+                            <h1 class="centro_education">C.E.S. Ramón y Cajal</h1>
+                            <h1 class="date_education">2021 / <span>2023</span></h1>
+                        </div>
+                </div>
+                <div class="box_education">
+                        <img src="/imagenes/icons8-diploma-2-96.png" alt="">
+                        <div class="box_text">
+                            <h1 class="titulo_education">Grado superior en <span>Desarrollo de Aplicaciones Web</span></h1>
+                            <h1 class="centro_education">C.F.P. Medac</h1>
+                            <h1 class="date_education">2024 / <span>...</span></h1>
+                            
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <!--ZONA CERTIFICADOS-->
+        <div class="zona_certificados" id="certificados">
+            <h1 class="texto_titulo TCertificados">Certificados</h1>
+            <div class="contenido_certificados">
+                <div class="box_certificados">
+                    <img src="/imagenes/Curso JavaScript Total.jpeg" alt="" class="certificados_img">
+                    <img src="/imagenes/fr.png" alt="" class="certificados_img">
+
+                    <img src="imagenes/Wordpress Profesional.jpg" alt="" class="certificados_img">
+                </div>
+            </div>
+        </div>
+
+        <!--ZONA CONTACTO-->
+        <div class="zona_contacto" id="contacto">
+            <h1 class="texto_titulo Tcontacto">Contacto</h1>
+            <div class="contenido_contacto">
+                <a href="mailto:joanrosero12@gmail.com">
+                    <img src="/imagenes/emailw.png" alt="" class="contacto_icon">
+                </a>
+                <!--
+                <a href="">
+                    <img src="/imagenes/github.png" alt="" class="contacto_icon">
+                </a>
+                
+                <a href="">
+                    <img src="/imagenes/linkeding.png" alt="" class="contacto_icon">
+                </a>
+            -->
+            </div>
+        </div>
+    </body>
+    <script src="script.js">
+        
+    </script>
+</html>
