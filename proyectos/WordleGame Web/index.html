@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div class="main_content">
+            <div class="main_text">
+                <h2 class="main_subtitle" id="main_subtitle_bienvenida">Bienvenid@ a</h2>
+                <h1 class="main_title">WORDLE GAME</h1>
+                <h2 class="main_subtitle" id="main_subtitle_numIntentos">Tienes 5 intentos para adivinar la palabra secreta</h2>
+                <h1 class="main_title_lose" id="main_title_lose">Has perdidos, no tienes mas intentos</h1>
+                <h1 class="main_title_win" id="main_title_win">¡HAS ACERTADO!</h1>
+                <h1 class="main_subtitle" id="main_subtitle_prueba_nuevo">Prueba de nuevo</h1>
+                <h1 class="main_palabra_secreta" id="main_palabra_secreta"></h1>                
+            </div>
+
+            <div class="main_box" id="main_box">
+                <div class="box_letra1">
+                    <input type="text" class="input_box1" id="primerInput" maxlength="1"  onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput1(this);">
+                </div>
+                <div class="box_letra1">
+                    <input type="text" class="input_box1" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput1(this);">
+                </div>
+                <div class="box_letra1">
+                    <input type="text" class="input_box1" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput1(this);">
+                </div>
+               <div class="box_letra1">
+                    <input type="text" class="input_box1" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput1(this);">
+                </div>
+                <div class="box_letra1">
+                    <input type="text" class="input_box1" id="ultimo_input" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput1(this);">
+                </div>
+                <!--SEGUNDA FILA-->
+                <div class="box_letra2">
+                    <input type="text" class="input_box2" id="input_box_enfocado"  maxlength="1"  onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput2(this);">
+                </div>
+                <div class="box_letra2">
+                    <input type="text" class="input_box2" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput2(this);">
+                </div>
+                <div class="box_letra2">
+                    <input type="text" class="input_box2" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput2(this);">
+                </div>
+               <div class="box_letra2">
+                    <input type="text" class="input_box2" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput2(this);">
+                </div>
+                <div class="box_letra2">
+                    <input type="text" class="input_box2" id="ultimo_input2" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput2(this);">
+                </div>
+                <!--TERCERA FILA-->
+                <div class="box_letra3">
+                    <input type="text" class="input_box3" id="input_box_enfocado2" maxlength="1"  onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput3(this);">
+                </div>
+                <div class="box_letra3">
+                    <input type="text" class="input_box3" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput3(this);">
+                </div>
+                <div class="box_letra3">
+                    <input type="text" class="input_box3" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput3(this);">
+                </div>
+               <div class="box_letra3">
+                    <input type="text" class="input_box3" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput3(this);">
+                </div>
+                <div class="box_letra3">
+                    <input type="text" class="input_box3" id="ultimo_input3" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput3(this);">
+                </div>
+                <!--CUARTA FILA-->
+                <div class="box_letra4">
+                    <input type="text" class="input_box4" id="input_box_enfocado3" maxlength="1"  onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput4(this);">
+                </div>
+                <div class="box_letra4">
+                    <input type="text" class="input_box4" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput4(this);">
+                </div>
+                <div class="box_letra4">
+                    <input type="text" class="input_box4" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput4(this);">
+                </div>
+               <div class="box_letra4">
+                    <input type="text" class="input_box4" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput4(this);">
+                </div>
+                <div class="box_letra4">
+                    <input type="text" class="input_box4" id="ultimo_input4" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput4(this);">
+                </div>
+                <!--QUINTA FILA-->
+                <div class="box_letra5">
+                    <input type="text" class="input_box5" id="input_box_enfocado4" maxlength="1"  onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput5(this);">
+                </div>
+                <div class="box_letra5">
+                    <input type="text" class="input_box5" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput5(this);">
+                </div>
+                <div class="box_letra5">
+                    <input type="text" class="input_box5" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput5(this);">
+                </div>
+               <div class="box_letra5">
+                    <input type="text" class="input_box5" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput5(this);">
+                </div>
+                <div class="box_letra5">
+                    <input type="text" class="input_box5" id="ultimo_input5" maxlength="1" onkeydown="soloLetras(event);" oninput="letrasMayusculas(this);" onkeyup="avanzarInput5(this);">
+                </div>
+            </div>
+            <!--<button class="main_btn" id="btn_jugar">Jugar</button>-->
+            <button class="main_btn" id="btn_jugar">Jugar</button>
+            <button class="main_btn_again" id="btn_jugar_nuevo">Jugar de nuevo</button>
+            <button class="main_btn" id="btn_comprobar1">COMPROBAR</button>
+            <button class="main_btn" id="btn_comprobar2">COMPROBAR</button>
+            <button class="main_btn" id="btn_comprobar3">COMPROBAR</button>
+            <button class="main_btn" id="btn_comprobar4">COMPROBAR</button>
+            <button class="main_btn" id="btn_comprobar5">COMPROBAR</button>
+        </div>
+    </body>
+    <script src="scripts.js"></script>
+</html>

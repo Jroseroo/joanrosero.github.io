@@ -1,0 +1,1308 @@
+@media (max-width: 480px){
+    *, html{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+    .main_content{
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main_title{
+        font-size: 2.5rem;
+    }
+
+    .main_title_lose{
+        font-size: 2.5rem;
+        display: none;
+        text-align: center;
+    }
+
+    .main_title_win{
+        font-size: 2.5rem;
+        display: none;
+    }
+
+    .main_subtitle{
+        display: block;
+        font-size: 2.5rem;
+    }
+
+    #main_subtitle_numIntentos{
+        display: none;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #main_subtitle_prueba_nuevo{
+        display: none;
+        font-size: 2.5rem;
+    }
+
+    .main_palabra_secreta{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .main_box{
+        width: 80%;
+        padding: 1rem;
+        display: none;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .box_letra1{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        width: 15%;
+        /*height: 80px;*/
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+    .box_letra2, .box_letra3, .box_letra4, .box_letra5{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        /*height: 80px;*/
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+
+    .input_box1{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box2{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box3{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box4{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box5{
+        width: 100%;
+        font-size: 3rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .main_btn{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main_btn:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    .main_btn_again{
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .main_btn_again:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    #btn_comprobar1, #btn_comprobar2, #btn_comprobar3, #btn_comprobar4, #btn_comprobar5{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+        *, html{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+    .main_content{
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main_title{
+        font-size: 2.8rem;
+    }
+
+    .main_title_lose{
+        font-size: 2.8rem;
+        display: none;
+        text-align: center;
+    }
+
+    .main_title_win{
+        font-size: 2.8rem;
+        display: none;
+    }
+
+    .main_subtitle{
+        display: block;
+        font-size: 2.8rem;
+    }
+
+    #main_subtitle_numIntentos{
+        display: none;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    #main_subtitle_prueba_nuevo{
+        display: none;
+        font-size: 2.8rem;
+    }
+
+    .main_palabra_secreta{
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .main_box{
+        width: 80%;
+        padding: 1rem;
+        display: none;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .box_letra1{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        width: 15%;
+        /*height: 80px;*/
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+    .box_letra2, .box_letra3, .box_letra4, .box_letra5{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        /*height: 80px;*/
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+
+    .input_box1{
+        width: 100%;
+        font-size: 3.5rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box2{
+        width: 100%;
+        font-size: 3.5rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box3{
+        width: 100%;
+        font-size: 3.5rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box4{
+        width: 100%;
+        font-size: 3.5rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box5{
+        width: 100%;
+        font-size: 3.5rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .main_btn{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main_btn:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    .main_btn_again{
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .main_btn_again:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    #btn_comprobar1, #btn_comprobar2, #btn_comprobar3, #btn_comprobar4, #btn_comprobar5{
+        display: none;
+    }
+ }
+
+@media(min-width: 601px) and (max-width: 768px){
+    *, html{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+    .main_content{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main_title{
+        font-size: 3rem;
+    }
+
+    .main_title_lose{
+        font-size: 3rem;
+        display: none;
+        text-align: center;
+    }
+
+    .main_title_win{
+        font-size: 3rem;
+        display: none;
+    }
+
+    .main_subtitle{
+        display: block;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_numIntentos{
+        display: none;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_prueba_nuevo{
+        display: none;
+        font-size: 3rem;
+    }
+
+    .main_palabra_secreta{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .main_box{
+        width: 65%;
+        padding: 1rem;
+        display: none;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .box_letra1{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        width: 15%;
+        /*height: 80px;*/
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+    .box_letra2, .box_letra3, .box_letra4, .box_letra5{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        /*height: 80px;*/
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+
+    .input_box1{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box2{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box3{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box4{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box5{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .main_btn{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main_btn:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    .main_btn_again{
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .main_btn_again:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    #btn_comprobar1, #btn_comprobar2, #btn_comprobar3, #btn_comprobar4, #btn_comprobar5{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 928px){
+    *, html{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+    .main_content{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main_title{
+        font-size: 3rem;
+    }
+
+    .main_title_lose{
+        font-size: 3rem;
+        display: none;
+        text-align: center;
+    }
+
+    .main_title_win{
+        font-size: 3rem;
+        display: none;
+    }
+
+    .main_subtitle{
+        display: block;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_numIntentos{
+        display: none;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_prueba_nuevo{
+        display: none;
+        font-size: 3rem;
+    }
+
+    .main_palabra_secreta{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .main_box{
+        width: 55%;
+        padding: 1rem;
+        display: none;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .box_letra1{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        width: 15%;
+        /*height: 80px;*/
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+    .box_letra2, .box_letra3, .box_letra4, .box_letra5{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        /*height: 80px;*/
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+
+    .input_box1{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box2{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box3{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box4{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box5{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .main_btn{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main_btn:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    .main_btn_again{
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .main_btn_again:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    #btn_comprobar1, #btn_comprobar2, #btn_comprobar3, #btn_comprobar4, #btn_comprobar5{
+        display: none;
+    }
+}
+
+@media(min-width: 929px) and (max-width: 1024px){
+    *, html{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+    .main_content{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main_title{
+        font-size: 3rem;
+    }
+
+    .main_title_lose{
+        font-size: 3rem;
+        display: none;
+        text-align: center;
+    }
+
+    .main_title_win{
+        font-size: 3rem;
+        display: none;
+    }
+
+    .main_subtitle{
+        display: block;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_numIntentos{
+        display: none;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_prueba_nuevo{
+        display: none;
+        font-size: 3rem;
+    }
+
+    .main_palabra_secreta{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .main_box{
+        width: 50%;
+        padding: 1rem;
+        display: none;
+        justify-content: center;
+        gap: 1.2rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .box_letra1{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        width: 15%;
+        /*height: 80px;*/
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+    .box_letra2, .box_letra3, .box_letra4, .box_letra5{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        /*height: 80px;*/
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+
+    .input_box1{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box2{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box3{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box4{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box5{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .main_btn{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main_btn:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    .main_btn_again{
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .main_btn_again:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    #btn_comprobar1, #btn_comprobar2, #btn_comprobar3, #btn_comprobar4, #btn_comprobar5{
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    *, html{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+    .main_content{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main_title{
+        font-size: 3rem;
+    }
+
+    .main_title_lose{
+        font-size: 3rem;
+        display: none;
+        text-align: center;
+    }
+
+    .main_title_win{
+        font-size: 3rem;
+        display: none;
+    }
+
+    .main_subtitle{
+        display: block;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_numIntentos{
+        display: none;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_prueba_nuevo{
+        display: none;
+        font-size: 3rem;
+    }
+
+    .main_palabra_secreta{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .main_box{
+        width: 40%;
+        padding: 1rem;
+        display: none;
+        justify-content: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .box_letra1{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        width: 15%;
+        /*height: 80px;*/
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 3px 3px 10px rgb(121, 119, 119);
+    }
+
+    .box_letra2, .box_letra3, .box_letra4, .box_letra5{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        /*height: 80px;*/
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 3px 3px 10px rgb(121, 119, 119);
+    }
+
+
+    .input_box1{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box2{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box3{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box4{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box5{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .main_btn{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main_btn:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    .main_btn_again{
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .main_btn_again:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    #btn_comprobar1, #btn_comprobar2, #btn_comprobar3, #btn_comprobar4, #btn_comprobar5{
+        display: none;
+    }
+}
+
+@media (min-width: 1281px){
+    *, html{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: rgb(20, 20, 20);
+        color: white;
+    }
+
+    .main_content{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .main_title{
+        font-size: 3rem;
+    }
+
+    .main_title_lose{
+        font-size: 3rem;
+        display: none;
+        text-align: center;
+    }
+
+    .main_title_win{
+        font-size: 3rem;
+        display: none;
+    }
+
+    .main_subtitle{
+        display: block;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_numIntentos{
+        display: none;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    #main_subtitle_prueba_nuevo{
+        display: none;
+        font-size: 3rem;
+    }
+
+    .main_palabra_secreta{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .main_box{
+        width: 30%;
+        padding: 1rem;
+        display: none;
+        justify-content: center;
+        gap: 1.8rem;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+    }
+
+    .box_letra1{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        width: 15%;
+        /*height: 80px;*/
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+    .box_letra2, .box_letra3, .box_letra4, .box_letra5{
+        /*flex: 0 0 calc((95% - 5 * 2rem) / 5);*/
+        /*height: 80px;*/
+        width: 15%;
+        aspect-ratio: 1 / 1;
+        border: none;
+        border-radius: 1rem;
+        display: flex;
+        box-shadow: 1px 1px 10px rgb(121, 119, 119);
+    }
+
+
+    .input_box1{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box2{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box3{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .input_box4{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+
+    .input_box5{
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+        border-radius: 1rem;
+    }
+
+    .main_btn{
+        width: 100px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .main_btn:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    .main_btn_again{
+        width: 120px;
+        height: 50px;
+        color: white;
+        background-color: black;
+        font-size: 1.2rem;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .main_btn_again:hover{
+        cursor: pointer;
+        color: rgb(15, 227, 15);
+        scale: 1.2;
+        border: 2px solid rgb(15, 227, 15);
+        /*box-shadow: 2px 2px 10px rgb(15, 227, 15);*/
+    }
+
+    #btn_comprobar1, #btn_comprobar2, #btn_comprobar3, #btn_comprobar4, #btn_comprobar5{
+        display: none;
+    }
+}

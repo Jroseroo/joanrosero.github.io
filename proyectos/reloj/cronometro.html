@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cronómetro</title>
+        <link rel="stylesheet" href="estilos.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Reloj alarma</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="alarma.html">Alarma</a>
+                    </li>
+                    <li>
+                        <a href="cronometro.html">Cronómetro</a>
+                    </li>
+                    <li>
+                        <a href="temporizador.html">Temporizador</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="cronometro__main">
+            <div>
+                <h1 id="tituloCronometro">CRONÓMETRO</h1>
+            </div>
+            
+            
+            <div class="cronometro__seccion">
+                <div class="contrometro__contenido" id="cronometro_content">
+                    <h1 class="cronometro__texto" id="textoCronometro">00:00:00</h1>
+                    <div class="cronometro__botones">
+                        <button class="cronometro_btn" id="btn_play"><img src="/img/play.png" alt="" class="btn_icon"></button>
+                        <button class="cronometro_btn" id="btn_pausa" ><img src="/img/pausa.png" alt="" class="btn_icon"></button>
+                        <button class="cronometro_btn" id="btn_stop"><img src="/img/stop.png" alt="" class="btn_icon"></button>
+                    </div>
+                    <div class="decoracion_crono" id="decoration"></div>
+                </div>
+            </div> 
+             
+        </main>
+    </body>
+    <script src="cronometro.js"></script>
+</html>

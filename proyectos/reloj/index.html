@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Reloj</title>
+        <link rel="stylesheet" href="estilos.css">
+        <meta charset="utf-8">
+    </head>
+    <body onload="crearFecha();  mostrarHora()">
+        <header>
+            <h1><a href="index.html">Reloj alarma</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="alarma.html">Alarma</a>
+                    </li>
+                    <li>
+                        <a href="cronometro.html">Cronómetro</a>
+                    </li>
+                    <li>
+                        <a href="temporizador.html">Temporizador</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section >
+            <div class="zonaHora">
+                <div class="zonaHora__content">
+                    <div class="decoracion_reloj">
+                        <span class="start"  style="--i:20"></span>
+                        <span class="start"  style="--i:20"></span>
+                        <span class="start"  style="--i:20"></span>
+                        <span class="start"  style="--i:20"></span>
+                    </div>
+                    <h1 class="textoHora" id="elementoHora">
+                        00:00:00
+                    </h1>
+                    <h1 class="textoFecha" id="elementoFecha">00/00/0000</h1>
+                    <div class="decoracion_reloj">
+                        <span class="startB"  style="--i:20"></span>
+                        <span class="startB"  style="--i:20"></span>
+                        <span class="startB"  style="--i:20"></span>
+                        <span class="startB"  style="--i:20"></span>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="index.js"></script>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEMPORIZADOR</title>
+        <link rel="stylesheet" href="estilos.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Reloj alarma</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="alarma.html">Alarma</a>
+                    </li>
+                    <li>
+                        <a href="cronometro.html">Cronómetro</a>
+                    </li>
+                    <li>
+                        <a href="temporizador.html">Temporizador</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section>
+            <h1 id="tituloTemporizador">TEMPORIZADOR</h1>
+            <div class="zonaInput_temporizador">
+                <div class="box_temporizador">
+                    <label for="">HORAS:</label>
+                    <input type="number" id="horas" min="0" max="23" value="0">
+                </div>
+                <div class="box_temporizador">                        <label for="">MINUTOS:</label>
+                        <input type="number" id="minutos" min="0" max="23" value="0">
+                </div>
+                <div class="box_temporizador">
+                    <label for="">SEGUNDOS:</label>
+                    <input type="number" id="segundos" min="0" max="23" value="0">
+                </div>
+            </div>
+            
+            <div class="alarma_select_section" id="zona_sonido">
+                <h3>SONIDO:</h3>
+
+                <!--
+                <audio controls id="sonidoAlarma">
+                    <source src="alarma2.mp3" type="audio/mpeg">
+                </audio>
+                -->
+                
+                <div class="selectorSonido_section" id="selectorSonido_section">
+                    <select id="selectorSonido">
+                        <option value="alarma1.mp3">Alarma 1</option>
+                        <option value="alarma2.mp3">Alarma 2</option>
+                        <option value="alarma3.mp3">Alarma 3</option>
+                    </select>
+                    <audio id="sonidoAlarma" controls>
+                        <source src="alarma1.mp3" type="audio/mpeg">
+                        Tu navegador no soporta audio.
+                    </audio>
+                </div>
+                
+            </div>
+        
+            <div class="areaBotones">
+                <button id="btnIniciarTemporizador" onclick="iniciarTemporizador()">Iniciar</button>
+                <button id="btnDetenerTemporizador" onclick="pausarTemporizador()">Detener</button>
+                <button id="btnRestablecerTemporizador" onclick="restablecerTemporizador()">Restablecer</button>
+                <button id="btnDetenerAlarma" onclick="detenerAlarma()">DETENER ALARMA</button>
+            </div>
+            <audio id="sonidoTemporizador">
+                <source src="alarma.mp3">
+            </audio>
+            <h1 id="textoTemporizador"></h1>
+        </section>
+    </body>
+    <script src="temporizador.js"></script>
+</html>

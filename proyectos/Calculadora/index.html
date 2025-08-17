@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="prueba()">
+        <main class="main_box">
+            <div class="box_calculadora">
+                <div class="calculadora_text">
+                    <input name="textCalculos" id="text_calculos"></input>
+                </div>
+                <div class="calculadora_btn">
+                    <div class="btns_top">
+                        <button class="botones simbolos">AC</button>
+                        <button class="botones simbolos" >+/-</button>
+                        <button class="botones simbolos">%</button>
+                        <button class="botones operaciones">/</button>
+                    </div>
+                    <div class="btns_middle">
+                        <button class="botones" id="n7">7</button>
+                        <button class="botones" id="n8">8</button>
+                        <button class="botones" id="n9">9</button>
+                        <button class="botones operaciones">X</button>
+                    </div>
+                    <div class="btns_middle">
+                        <button class="botones" id="n4">4</button>
+                        <button class="botones" id="n5">5</button>
+                        <button class="botones" id="n6">6</button>
+                        <button class="botones operaciones">-</button>
+                    </div>
+                    <div class="btns_middle">
+                        <button class="botones" id="n1">1</button>
+                        <button class="botones" id="n2">2</button>
+                        <button class="botones" id="n3">3</button>
+                        <button class="botones operaciones">+</button>
+                    </div>
+                    <div class="btns_bottom">
+                        <button class="botones btn_0" id="cero">0</button>
+                        <button class="botones">.</button>
+                        <button class="botones btn_igual operaciones" id="igual">=</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+    
+</html>

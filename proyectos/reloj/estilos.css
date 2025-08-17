@@ -1,0 +1,487 @@
+body{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Cabecera*/
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px
+}
+
+header a:hover{
+    color: #FF8800;
+    
+}
+
+nav ul{
+    display: flex;
+    padding: 1rem;
+}
+
+li{
+    margin: 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: #FF8800;
+}
+
+body{
+    overflow: hidden;
+    margin-top:150px;
+    width: 100%;
+    height: 100%vh;
+}
+
+/*Sección hora*/
+
+
+.zonaHora{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.zonaHora__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoHora{
+    font-family: monospace;
+    font-size: 100px;
+    margin: 0;
+}
+
+section h1{
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*DECORACION*/
+
+.decoracion_reloj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.start{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF8800;
+    margin: 20px;
+    box-shadow: 0 0 10px #FF8800,
+                0 0 20px #FF8800, 
+                0 0 30px #FF8800, 
+                0 0 40px #FF8800, 
+                0 0 50px #FF8800;
+    animation: animate 60s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+.startB{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FF8800;
+    margin: 20px;
+    box-shadow: 0 0 10px #FF8800,
+                0 0 20px #FF8800, 
+                0 0 30px #FF8800, 
+                0 0 40px #FF8800, 
+                0 0 50px #FF8800;
+    animation: animateB 20s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+
+
+@keyframes animate{
+    0%{
+        transform: translateX(-300px);
+    }
+    100%{
+        transform: translateX(300px);
+    }
+    
+}
+
+
+@keyframes animateB{
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+    
+}
+
+
+/*SECCIÓN ALARMA*/
+
+#texto_alarma{
+    font-family: monospace;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+    text-shadow: 
+        1px 1px 1px #FF8800,
+        2px 2px 1px #FF8800;
+    margin: 0;
+}
+
+.zona_alarma{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alarma_select_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.alarma_select_section h3{
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+}
+
+.select_alarma{
+    width: 50%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+/*.select_alarma:hover{
+    cursor: pointer;
+    background-color: #FF8800;
+    color: black;
+    border: #FF8800 solid 2px;
+}
+*/
+.select_alarma option{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.alarma_boton_section{
+    display: flex;
+    justify-content: center;
+}
+
+.selectorSonido_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f3f4;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.selectorSonido_section select{
+    width: 50%;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.selectorSonido_section audio{
+    background-color: #f1f3f4;
+}
+
+.btnAlarma{
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #FF8800;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btnAlarma:hover{
+    background-color: orange;
+    border: 3px solid #FF8800;
+}
+
+#btnDetener{
+    display: none;
+}
+
+/*SECCIÓN CRONÉMTRO*/
+
+.cronometro__main{
+    
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tituloCronometro{
+    font-family: monospace;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 
+        1px 1px 1px #FF8800,
+        2px 2px 1px #FF8800;
+    margin: 0;
+}
+
+.cronometro__seccion{
+    /*position: relative;*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contrometro__contenido{
+    /*position: absolute;*/
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 2px gray;
+}
+
+.cronometro__texto{
+    font-size: 70px;
+    font-family: monospace;
+    margin: 0;
+}
+
+.cronometro__botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cronometro_btn{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn_icon{
+    width: 80%;
+}
+
+
+#btn_play{
+    background-color: #2CA700;
+}
+
+
+#btn_pausa{
+    
+    display: none;
+    background-color: #FF8800;
+}
+
+#btn_stop{
+    display: none;
+    background-color: #9E0C0C;
+}
+
+.decoracion_crono{
+    pointer-events: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: absolute;
+    animation: giro 60s linear infinite;
+    animation-play-state: paused;
+}
+
+.decoracion_crono::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FF8800;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    
+}
+
+@keyframes giro{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+/*TEMPORIZADOR*/
+
+#tituloTemporizador{
+    font-family: monospace;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 
+        1px 1px 1px #FF8800,
+        2px 2px 1px #FF8800;
+    margin: 0;
+}
+
+.zonaInput_temporizador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_temporizador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.box_temporizador label{
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+}
+
+.box_temporizador input{
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-family: monospace;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px gray;
+}
+
+
+.areaBotones{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+
+.areaBotones button{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#btnIniciarTemporizador{
+    background-color: #2CA700;
+}
+
+#btnIniciarTemporizador:hover{
+    cursor: pointer;
+    background-color: green;
+    border: 3px solid #2CA700;
+}
+
+#btnDetenerTemporizador{
+    display: none;
+    background-color: #FF8800;
+}
+
+#btnDetenerTemporizador:hover{
+    background-color: orange;
+    border: 3px solid #FF8800;
+    cursor: pointer;
+}
+
+#btnRestablecerTemporizador{
+    display: none;
+    background-color: #9E0C0C;   
+}
+
+#btnRestablecerTemporizador:hover{
+    background-color: red;
+    border: 3px solid #9E0C0C;
+    cursor: pointer;
+}
+
+#btnDetenerAlarma{
+    top: 40%;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    display: none;
+    background-color: #9E0C0C;
+    font-size: 80px;   
+}
+
+#btnDetenerAlarma:hover{
+    background-color: red;
+    border: 3px solid #9E0C0C;
+    cursor: pointer;
+}
