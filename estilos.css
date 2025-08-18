@@ -3297,6 +3297,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
     }
 
     .skill_b{
@@ -3310,6 +3313,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
     }
 
 
@@ -3616,6 +3622,7 @@
     }
 
 }
+
 
 
 
