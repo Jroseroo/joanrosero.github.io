@@ -168,14 +168,14 @@
     
     .contenido_presentacion{
         position: relative;
-        width: 60%;
+        width: 80%;
         height: 60%;
         aspect-ratio: 1 / 1;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
-        padding: 2rem;
+        padding: 3rem;
         border-radius: 10px;
     }
 
@@ -783,14 +783,14 @@
     
     .contenido_presentacion{
         position: relative;
-        width: 60%;
+        width: 80%;
         height: 60%;
         aspect-ratio: 1 / 1;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
-        padding: 2rem;
+        padding: 3rem;
         border-radius: 10px;
     }
 
@@ -1399,14 +1399,14 @@
     }
     .contenido_presentacion{
         position: relative;
-        width: 60%;
+        width: 80%;
         height: 60%;
         aspect-ratio: 1 / 1;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
-        padding: 2rem;
+        padding: 3rem;
         border-radius: 10px;
     }
 
@@ -2015,14 +2015,14 @@
     
    .contenido_presentacion{
         position: relative;
-        width: 60%;
+        width: 80%;
         height: 60%;
         aspect-ratio: 1 / 1;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
-        padding: 2rem;
+        padding: 3rem;
         border-radius: 10px;
     }
 
@@ -2635,7 +2635,7 @@
     
     .contenido_presentacion{
         position: relative;
-        width: 60%;
+        width: 80%;
         height: 60%;
         aspect-ratio: 1 / 1;
         display: flex;
@@ -3594,4 +3594,5 @@
     }
 
 }
+
 
