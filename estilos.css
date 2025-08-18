@@ -3289,7 +3289,7 @@
     }
 
     .skill_a{
-        background-color: red;
+         background-color: #3e3e3e;
         height: 100%;
         width: 100%;
         position: absolute;
@@ -3300,7 +3300,7 @@
     }
 
     .skill_b{
-        background-color: black;
+         background-color: #3e3e3e;
         transform: rotateY(180);
         width: 100%;
         height: 100%;
@@ -3331,6 +3331,7 @@
         color: white;
         font-size: 1.8rem;
         margin: 1rem 0;
+       transform: rotateY(180);
     }
 
     /*ZONA PROYECTOS*/
@@ -3615,6 +3616,7 @@
     }
 
 }
+
 
 
 
