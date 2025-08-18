@@ -160,6 +160,7 @@
         height: 100svh;
         display: flex;
         justify-content: center;
+         align-items: center;
         color: white;
         text-align: center;
         margin-top: 7rem;
@@ -774,6 +775,7 @@
         height: 100svh;
         display: flex;
         justify-content: center;
+       align-items: center;
         color: white;
         text-align: center;
         margin-top: 7rem;
@@ -1390,6 +1392,7 @@
         height: 100svh;
         display: flex;
         justify-content: center;
+       align-items: center;
         color: white;
         text-align: center;
         margin-top: 7rem;
@@ -2004,6 +2007,7 @@
         height: 100svh;
         display: flex;
         justify-content: center;
+       align-items: center;
         color: white;
         text-align: center;
         margin-top: 7rem;
@@ -2623,6 +2627,7 @@
         height: 100svh;
         display: flex;
         justify-content: center;
+       align-items: center;
         color: white;
         text-align: center;
         margin-top: 7rem;
@@ -3151,7 +3156,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
         color: white;
         text-align: center;
         
@@ -3590,3 +3594,4 @@
     }
 
 }
+
