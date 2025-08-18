@@ -1103,12 +1103,53 @@
         align-items: center;
     }
 
-    .contenido_presentacion{
-        width: 80%;
+   .contenido_presentacion{
+        position: relative;
+        width: 60%;
+        height: 60%;
+        aspect-ratio: 1 / 1;
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        background-color: black;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+
+        @property --angle{
+            syntax: "<angle>";
+            initial-value: 0deg;
+            inherits: false;
+        }
+
+    .contenido_presentacion::after, .contenido_presentacion::before{
+        content: "";
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: conic-gradient(from var(--angle), transparent 75%, red);
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 10px;
+        animation: 5s spin linear infinite;
+    }
+
+    .contenido_presentacion::before{
+        filter: blur(1.5rem);
+        opacity: 0.5;
+    }
+    
+    @keyframes spin{
+        from{
+            --angle: 0deg;
+        }
+        to{
+           --angle: 360deg
+       }
     }
 
     .presentacion_texto{
@@ -1576,11 +1617,52 @@
     }
 
     .contenido_presentacion{
-        width: 80%;
+        position: relative;
+        width: 60%;
+        height: 60%;
+        aspect-ratio: 1 / 1;
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        background-color: black;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+
+        @property --angle{
+            syntax: "<angle>";
+            initial-value: 0deg;
+            inherits: false;
+        }
+
+    .contenido_presentacion::after, .contenido_presentacion::before{
+        content: "";
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: conic-gradient(from var(--angle), transparent 75%, red);
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 10px;
+        animation: 5s spin linear infinite;
+    }
+
+    .contenido_presentacion::before{
+        filter: blur(1.5rem);
+        opacity: 0.5;
+    }
+    
+    @keyframes spin{
+        from{
+            --angle: 0deg;
+        }
+        to{
+           --angle: 360deg
+       }
     }
 
     .presentacion_texto{
@@ -2045,13 +2127,53 @@
         align-items: center;
     }
 
-    .contenido_presentacion{
-        width: 80%;
+   .contenido_presentacion{
+        position: relative;
+        width: 60%;
+        height: 60%;
+        aspect-ratio: 1 / 1;
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        margin-top: 5rem;
+        background-color: black;
+        padding: 2rem;
+        border-radius: 10px;
+    }
+
+        @property --angle{
+            syntax: "<angle>";
+            initial-value: 0deg;
+            inherits: false;
+        }
+
+    .contenido_presentacion::after, .contenido_presentacion::before{
+        content: "";
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: conic-gradient(from var(--angle), transparent 75%, red);
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 10px;
+        animation: 5s spin linear infinite;
+    }
+
+    .contenido_presentacion::before{
+        filter: blur(1.5rem);
+        opacity: 0.5;
+    }
+    
+    @keyframes spin{
+        from{
+            --angle: 0deg;
+        }
+        to{
+           --angle: 360deg
+       }
     }
 
     .presentacion_texto{
@@ -2513,10 +2635,52 @@
     }
 
     .contenido_presentacion{
-        width: 80%;
+        position: relative;
+        width: 60%;
+        height: 60%;
         display: flex;
+        justify-content: center;
         align-items: center;
+        border-radius: 10px;
+        background-color: black;
+        padding: 2rem;
     }
+
+     @property --angle{
+            syntax: "<angle>";
+            initial-value: 0deg;
+            inherits: false;
+        }
+
+    .contenido_presentacion::before, .contenido_presentacion::after{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-image: conic-gradient(from var(--angle), transparent 75%, red);
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        z-index: -1;
+        padding: 10px;
+        border-radius: 10px;
+        animation: 10s spin linear infinite;
+    }
+
+    .contenido_presentacion::before{
+        filter: blur(1.5rem);
+
+    }
+
+     @keyframes spin{
+            from{
+                --angle: 0deg;
+            }
+            to{
+                --angle: 360deg
+            }
+        }
+
 
     .presentacion_texto{
         display: flex;
@@ -2899,6 +3063,7 @@
         margin: 0 2rem;
     }
 }
+
 
 
 
