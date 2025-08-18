@@ -3280,20 +3280,41 @@
     }
 
     .skills_box{
-        margin-top: 1.5rem;
-        width: 20%;
-        aspect-ratio: 1 / 1;
-        background-color: #3e3e3e;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 2rem;
-        padding: 2rem;
+         width: 300px;
+        height: 300px;
+        transition: 1.5s;
+        transform-style: preserve-3d;
+         padding: 5rem;
+       border-radius:10px;
     }
 
+    .skill_a{
+        background-color: red;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill_b{
+        background-color: black;
+        transform: rotateY(180);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
     .skills_box:hover{
-        transform: scale(1.2);
+        transform: rotateY(-180deg);
         border: 2px solid red;
     }
 
@@ -3594,5 +3615,6 @@
     }
 
 }
+
 
 
