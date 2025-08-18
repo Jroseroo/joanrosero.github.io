@@ -294,20 +294,49 @@
     }
 
     .skills_box{
-        margin-top: 1.5rem;
-        width: 40%;
-        aspect-ratio: 1 / 1;
-        background-color: #3e3e3e;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 2rem;
-        padding: 2rem;
+         width: 200px;
+        height: 200px;
+        transition: 1.5s;
+        transform-style: preserve-3d;
+         padding: 5rem;
+       border-radius: 10px;
     }
 
+    .skill_a{
+         background-color: #3e3e3e;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+    .skill_b{
+         background-color: #3e3e3e;
+        transform: rotateY(180);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+
     .skills_box:hover{
-        transform: scale(1.2);
+        transform: rotateY(-180deg);
         border: 2px solid red;
     }
 
@@ -316,11 +345,17 @@
         margin: 1rem 0;
     }
 
+    .texto_subtitulo{
+        color: red;
+    }
+
     .texto_skills{
         color: white;
         font-size: 1.8rem;
         margin: 1rem 0;
+       transform: rotateY(-180deg);
     }
+
 
     /*ZONA PROYECTOS*/
     .zona_proyectos{
@@ -908,21 +943,52 @@
         flex-wrap: wrap;
     }
 
+    
+
     .skills_box{
-        margin-top: 1.5rem;
-        width: 40%;
-        aspect-ratio: 1 / 1;
-        background-color: #3e3e3e;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 2rem;
-        padding: 2rem;
+         width: 200px;
+        height: 200px;
+        transition: 1.5s;
+        transform-style: preserve-3d;
+         padding: 5rem;
+       border-radius: 10px;
     }
 
+    .skill_a{
+         background-color: #3e3e3e;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+    .skill_b{
+         background-color: #3e3e3e;
+        transform: rotateY(180);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+
     .skills_box:hover{
-        transform: scale(1.2);
+        transform: rotateY(-180deg);
         border: 2px solid red;
     }
 
@@ -931,10 +997,15 @@
         margin: 1rem 0;
     }
 
+    .texto_subtitulo{
+        color: red;
+    }
+
     .texto_skills{
         color: white;
         font-size: 1.8rem;
         margin: 1rem 0;
+       transform: rotateY(-180deg);
     }
 
     /*ZONA PROYECTOS*/
@@ -1524,21 +1595,50 @@
         flex-wrap: wrap;
     }
 
-    .skills_box{
-        margin-top: 1.5rem;
-        width: 40%;
-        aspect-ratio: 1 / 1;
-        background-color: #3e3e3e;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 2rem;
-        padding: 2rem;
+ .skills_box{
+         width: 250px;
+        height: 250px;
+        transition: 1.5s;
+        transform-style: preserve-3d;
+         padding: 5rem;
+       border-radius: 10px;
     }
 
+    .skill_a{
+         background-color: #3e3e3e;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+    .skill_b{
+         background-color: #3e3e3e;
+        transform: rotateY(180);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+
     .skills_box:hover{
-        transform: scale(1.2);
+        transform: rotateY(-180deg);
         border: 2px solid red;
     }
 
@@ -1547,10 +1647,15 @@
         margin: 1rem 0;
     }
 
+    .texto_subtitulo{
+        color: red;
+    }
+
     .texto_skills{
         color: white;
         font-size: 1.8rem;
         margin: 1rem 0;
+       transform: rotateY(-180deg);
     }
 
     /*ZONA PROYECTOS*/
@@ -2144,20 +2249,49 @@
     }
 
     .skills_box{
-        margin-top: 1.5rem;
-        width: 40%;
-        aspect-ratio: 1 / 1;
-        background-color: #3e3e3e;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 2rem;
-        padding: 2rem;
+         width: 280px;
+        height: 280px;
+        transition: 1.5s;
+        transform-style: preserve-3d;
+         padding: 5rem;
+       border-radius: 10px;
     }
 
+    .skill_a{
+         background-color: #3e3e3e;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+    .skill_b{
+         background-color: #3e3e3e;
+        transform: rotateY(180);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+
     .skills_box:hover{
-        transform: scale(1.2);
+        transform: rotateY(-180deg);
         border: 2px solid red;
     }
 
@@ -2166,12 +2300,16 @@
         margin: 1rem 0;
     }
 
+    .texto_subtitulo{
+        color: red;
+    }
+
     .texto_skills{
         color: white;
         font-size: 1.8rem;
         margin: 1rem 0;
+       transform: rotateY(-180deg);
     }
-
     /*ZONA PROYECTOS*/
     .zona_proyectos{
         width: 100%;
@@ -2762,21 +2900,50 @@
         width: 80%;
     }
 
-    .skills_box{
-        margin-top: 1.5rem;
-        width: 35%;
-        aspect-ratio: 1 / 1;
-        background-color: #3e3e3e;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 2rem;
-        padding: 2rem;
+   .skills_box{
+         width: 300px;
+        height: 300px;
+        transition: 1.5s;
+        transform-style: preserve-3d;
+         padding: 5rem;
+       border-radius: 10px;
     }
 
+    .skill_a{
+         background-color: #3e3e3e;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+    .skill_b{
+         background-color: #3e3e3e;
+        transform: rotateY(180);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+       border-radius: 10px;
+    }
+
+
     .skills_box:hover{
-        transform: scale(1.2);
+        transform: rotateY(-180deg);
         border: 2px solid red;
     }
 
@@ -2785,10 +2952,15 @@
         margin: 1rem 0;
     }
 
+    .texto_subtitulo{
+        color: red;
+    }
+
     .texto_skills{
         color: white;
         font-size: 1.8rem;
         margin: 1rem 0;
+       transform: rotateY(-180deg);
     }
 
     /*ZONA PROYECTOS*/
@@ -3339,7 +3511,7 @@
         color: white;
         font-size: 1.8rem;
         margin: 1rem 0;
-       transform: rotateY(-180);
+       transform: rotateY(-180deg);
     }
 
     /*ZONA PROYECTOS*/
@@ -3624,6 +3796,7 @@
     }
 
 }
+
 
 
 
