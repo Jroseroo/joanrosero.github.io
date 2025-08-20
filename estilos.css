@@ -438,6 +438,12 @@
         font-size: 1.8rem;
     }
 
+   .project_description a{
+        text-decoration: underline;
+        color: white;
+        font-size: 1.8rem;
+    }
+
     .text_enlace{
         font-size: 2.2rem;
         text-decoration: none;
@@ -1219,6 +1225,12 @@
         font-size: 1.8rem;
     }
 
+   .project_description a{
+        text-decoration: underline;
+        color: white;
+        font-size: 1.8rem;
+    }
+
     .text_enlace{
         font-size: 2.2rem;
         text-decoration: none;
@@ -1967,6 +1979,12 @@
     }
 
     .project_description{
+        font-size: 1.8rem;
+    }
+
+   .project_description a{
+        text-decoration: underline;
+        color: white;
         font-size: 1.8rem;
     }
 
@@ -2723,6 +2741,12 @@
         font-size: 1.8rem;
     }
 
+   .project_description a{
+        text-decoration: underline;
+        color: white;
+        font-size: 1.8rem;
+    }
+
     .text_enlace{
         font-size: 2.2rem;
         text-decoration: none;
@@ -3476,6 +3500,12 @@
         font-size: 1.8rem;
     }
 
+   .project_description a{
+        text-decoration: underline;
+        color: white;
+        font-size: 1.8rem;
+    }
+
     .text_enlace{
         font-size: 2.2rem;
         text-decoration: none;
@@ -4124,6 +4154,12 @@
         font-size: 1.8rem;
     }
 
+   .project_description a{
+        text-decoration: underline;
+        color: white;
+        font-size: 1.8rem;
+    }
+   
     .text_enlace{
         font-size: 2.2rem;
         text-decoration: none;
@@ -4445,6 +4481,7 @@
     }
 
 }
+
 
 
 
