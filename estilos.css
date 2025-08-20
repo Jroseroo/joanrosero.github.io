@@ -474,6 +474,30 @@
         transform: translateX(0%);
     }
 
+   .project_text_cuatro{
+       position: absolute;
+       width:100%;
+       aspect-ratio: 16 / 9;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
+       text-align: center;
+       background-color: #3e3e3e;
+       opacity: 0.9; 
+       color: white;
+       margin-top: 0;
+       padding: 0.5rem;
+       border-radius: 2rem;
+       transform: translateX(100%);
+       transition: all 300ms linear;
+    }
+
+    .box_proyects:hover > .project_text_cuatro{
+        transform: translateX(0%);
+    }
+
     .project_text_tres{
        position: absolute;
        width:100%;
@@ -1284,6 +1308,29 @@
     .box_proyects:hover > .project_text_tres{
         transform: translateY(0%);
     }
+   .project_text_cuatro{
+       position: absolute;
+       width:100%;
+       aspect-ratio: 16 / 9;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
+       text-align: center;
+       background-color: #3e3e3e;
+       opacity: 0.9; 
+       color: white;
+       margin-top: 0;
+       padding: 0.5rem;
+       border-radius: 2rem;
+       transform: translateX(100%);
+       transition: all 300ms linear;
+    }
+
+    .box_proyects:hover > .project_text_cuatro{
+        transform: translateX(0%);
+    }
 
     /*ZONA EDUCACIÓN*/
     .zona_educacion{
@@ -2040,6 +2087,30 @@
 
     .box_proyects:hover > .project_text_tres{
         transform: translateY(0%);
+    }
+
+   .project_text_cuatro{
+       position: absolute;
+       width:100%;
+       aspect-ratio: 16 / 9;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
+       text-align: center;
+       background-color: #3e3e3e;
+       opacity: 0.9; 
+       color: white;
+       margin-top: 0;
+       padding: 0.5rem;
+       border-radius: 2rem;
+       transform: translateX(100%);
+       transition: all 300ms linear;
+    }
+
+    .box_proyects:hover > .project_text_cuatro{
+        transform: translateX(0%);
     }
 
     /*ZONA EDUCACIÓN*/
@@ -2801,6 +2872,30 @@
         transform: translateY(0%);
     }
 
+   .project_text_cuatro{
+       position: absolute;
+       width:100%;
+       aspect-ratio: 16 / 9;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
+       text-align: center;
+       background-color: #3e3e3e;
+       opacity: 0.9; 
+       color: white;
+       margin-top: 0;
+       padding: 0.5rem;
+       border-radius: 2rem;
+       transform: translateX(100%);
+       transition: all 300ms linear;
+    }
+
+    .box_proyects:hover > .project_text_cuatro{
+        transform: translateX(0%);
+    }
+
     /*ZONA EDUCACIÓN*/
     .zona_educacion{
         position: relative;
@@ -3560,6 +3655,30 @@
         transform: translateY(0%);
     }
 
+   .project_text_cuatro{
+       position: absolute;
+       width:100%;
+       aspect-ratio: 16 / 9;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
+       text-align: center;
+       background-color: #3e3e3e;
+       opacity: 0.9; 
+       color: white;
+       margin-top: 0;
+       padding: 0.5rem;
+       border-radius: 2rem;
+       transform: translateX(100%);
+       transition: all 300ms linear;
+    }
+
+    .box_proyects:hover > .project_text_cuatro{
+        transform: translateX(0%);
+    }
+
     /*ZONA EDUCACIÓN*/
     .zona_educacion{
         position: relative;
@@ -4214,6 +4333,30 @@
         transform: translateY(0%);
     }
 
+   .project_text_cuatro{
+       position: absolute;
+       width:100%;
+       aspect-ratio: 16 / 9;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 1rem;
+       text-align: center;
+       background-color: #3e3e3e;
+       opacity: 0.9; 
+       color: white;
+       margin-top: 0;
+       padding: 0.5rem;
+       border-radius: 2rem;
+       transform: translateX(100%);
+       transition: all 300ms linear;
+    }
+
+    .box_proyects:hover > .project_text_cuatro{
+        transform: translateX(0%);
+    }
+   
     /*ZONA EDUCACIÓN*/
     .zona_educacion{
         position: relative;
@@ -4481,6 +4624,7 @@
     }
 
 }
+
 
 
 
