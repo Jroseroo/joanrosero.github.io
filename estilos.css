@@ -2742,7 +2742,8 @@
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        padding: 2rem 0;
+        padding: 2rem 0
+        overflow: hidden;
     }   
     
     .Tprojectos{
@@ -2906,6 +2907,7 @@
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+       overflow: hidden;
     }
 
     .Teducation{
@@ -4625,6 +4627,7 @@
     }
 
 }
+
 
 
 
