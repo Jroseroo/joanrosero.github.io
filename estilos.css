@@ -2752,7 +2752,7 @@
     }
 
     .contenido_proyectos{
-        width: 50%;
+        width: 90%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -4627,6 +4627,7 @@
     }
 
 }
+
 
 
 
