@@ -4390,6 +4390,7 @@
         flex-direction: column;
         gap: 2rem;
         overflow: auto;
+        scrollbar-width: none;
     }
 
     @keyframes grow {
@@ -4633,6 +4634,7 @@
     }
 
 }
+
 
 
 
