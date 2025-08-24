@@ -547,6 +547,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        overflow: auto;
     }
 
     @keyframes grow {
@@ -1357,6 +1358,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        overflow: auto;
     }
 
     @keyframes grow {
@@ -2138,6 +2140,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        overflow: auto;
     }
 
     @keyframes grow {
@@ -2923,6 +2926,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        overflow: auto;
     }
 
     @keyframes grow {
@@ -3706,6 +3710,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        overflow: auto;
     }
 
     @keyframes grow {
@@ -4384,6 +4389,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        overflow: auto;
     }
 
     @keyframes grow {
@@ -4627,6 +4633,7 @@
     }
 
 }
+
 
 
 
