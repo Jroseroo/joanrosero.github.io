@@ -3536,7 +3536,7 @@
     }
 
     .contenido_proyectos{
-        width: 45%;
+        width: 85%;
         height: auto;
         display: flex;
         justify-content: center;
@@ -3701,7 +3701,7 @@
     .timeline_education{
         position: relative;
         margin: 0px auto;
-        width: 80%;
+        width: 90%;
         animation: grow 6s linear forwards;
         display: flex;
         flex-direction: column;
@@ -3730,7 +3730,7 @@
     }
 
     .container_education{
-        padding: 10px;
+        padding: 5x;
         position: relative;
         width: 100%;
         background-color: black;
@@ -3774,10 +3774,10 @@
     .text_education{
         color: white;
         position: relative;
-        padding: 2rem;
+        padding: 1.8rem;
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
    
@@ -3790,24 +3790,24 @@
     }
 
     .education_title{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .education_title span{
         color: red;
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .education_subtitle{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .education_fechas{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .education_fechas span{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         color: red;
     }
 
@@ -4627,6 +4627,7 @@
     }
 
 }
+
 
 
 
