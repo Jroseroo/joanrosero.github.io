@@ -3455,17 +3455,19 @@
     .contenido_skills{
         display: flex;
         justify-content: center;
-        gap: 1rem;
-        flex-wrap: wrap;
-        width: 80%;
+        align-items: center;
+        padding: 3rem;
+        width: 90%;
+        overflow: hidden;
+         gap: 2rem;
     }
 
    .skills_box{
-         width: 300px;
-        height: 300px;
+         max-width: 300px;
+        max-height: 300px;
         transition: 1.5s;
         transform-style: preserve-3d;
-         padding: 5rem;
+         padding: 3rem;
        border-radius: 10px;
     }
 
@@ -3881,7 +3883,7 @@
     }
 
     .box_certificados{
-        width: 60%;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -4637,6 +4639,7 @@
     }
 
 }
+
 
 
 
