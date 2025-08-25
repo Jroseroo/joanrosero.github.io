@@ -2755,17 +2755,19 @@
     }
 
     .contenido_proyectos{
-        width: 90%;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
+        gap: 1rem;
         flex-wrap: wrap;
+       overflow: hidden;
+       scroll-bar: none;
     }
 
     .box_proyects{
-        width: 70%;
+        width: 50%;
         aspect-ratio: 16 / 9;
         position: relative;
         display: flex;
@@ -3547,10 +3549,12 @@
         align-items: center;
         gap: 2rem;
         flex-wrap: wrap;
+        overflow: hidden;
+        scroll-bar: none;
     }
 
     .box_proyects{
-        width: 70%;
+        width: 50%;
         aspect-ratio: 16 / 9;
         position: relative;
         display: flex;
@@ -3560,7 +3564,6 @@
         border: 2px solid white;
         border-radius: 2rem;
         cursor: pointer;
-        overflow: hidden;
     }
 
     .box_proyects img{
@@ -4634,6 +4637,7 @@
     }
 
 }
+
 
 
 
