@@ -1763,8 +1763,8 @@
     }
     .contenido_presentacion{
         position: relative;
-        width: 80%;
-        height: 60%;
+        width: 90%;
+        height: 70%;
         aspect-ratio: 1 / 1;
         display: flex;
         justify-content: center;
@@ -1818,25 +1818,25 @@
     }
 
     .texto_subtitulo{
-        font-size: 3.2rem;
+        font-size: 3rem;
     }
 
     .texto_subtitulo span{
-        font-size: 3.2rem;
+        font-size: 3rem;
         color: red;
     }
 
     .texto_titulo{
-        font-size: 4.2rem;
+        font-size: 3.5rem;
     }
 
     .texto_parrafo{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         font-weight: bold;
     }
 
     .presentacion_boton{
-        width: 60%;
+        width: 50%;
         background-color: red;
         color: white;
         font-size: 1.5rem;
@@ -4637,6 +4637,7 @@
     }
 
 }
+
 
 
 
