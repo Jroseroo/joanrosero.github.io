@@ -810,7 +810,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 600px){
+ (min-width: 481px) and (max-width: 600px){
     /* Reset básico */
     * {
         margin: 0;
@@ -3867,7 +3867,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5rem;
+        gap: 2rem;
     }
 
     .TCertificados{
@@ -3881,7 +3881,7 @@
     }
 
     .box_certificados{
-        width: 70%;
+        width: 60%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -4637,6 +4637,7 @@
     }
 
 }
+
 
 
 
