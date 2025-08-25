@@ -1889,8 +1889,8 @@
     }
 
  .skills_box{
-         width: 250px;
-        height: 250px;
+         width: 200px;
+        height: 200px;
         transition: 1.5s;
         transform-style: preserve-3d;
          padding: 5rem;
@@ -1977,10 +1977,12 @@
         align-items: center;
         gap: 2rem;
         flex-wrap: wrap;
+        overflow: auto;
     }
 
     .box_proyects{
-        width: 75%;
+        min-width: 60%;
+        max-width: 80%;
         aspect-ratio: 16 / 9;
         position: relative;
         display: flex;
@@ -2139,8 +2141,11 @@
         animation: grow 6s linear forwards;
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 2rem;
+        padding: 1rem;
         overflow: auto;
+        overflow-x: hidden;
     }
 
     @keyframes grow {
@@ -2155,19 +2160,19 @@
     .timeline_education::after{
         content: '';
         width: 10px;
-        height: 100%;
+        height: 750px;
         background-color: red;
         position: absolute;
         top: 0;
-        left: 1%;
-        margin-left: -10px;
+        left: 10%;
+        margin-left: -30px;
         z-index: -1;
     }
 
     .container_education{
         padding: 10px;
         position: relative;
-        width: 100%;
+        width: 90%;
         background-color: black;
         border-radius: 10px;
         animation: movedown 1s linear forwards;
@@ -2387,7 +2392,7 @@
         width: 100%;
         height: 100svh;
     }
-    /*ZONA CABEZERA*/
+
     /*ZONA CABEZERA*/
     .cabezera{
         width: 100%;
@@ -2674,8 +2679,8 @@
     }
 
     .skills_box{
-         width: 280px;
-        height: 280px;
+         width: 220px;
+        height: 220px;
         transition: 1.5s;
         transform-style: preserve-3d;
          padding: 5rem;
@@ -2745,7 +2750,7 @@
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        padding: 2rem 0
+        padding: 2rem 0;
         overflow: hidden;
     }   
     
@@ -2762,12 +2767,10 @@
         align-items: center;
         gap: 1rem;
         flex-wrap: wrap;
-       overflow: hidden;
-       scroll-bar: none;
     }
 
     .box_proyects{
-        width: 50%;
+        width: 30%;
         aspect-ratio: 16 / 9;
         position: relative;
         display: flex;
@@ -2912,7 +2915,6 @@
         flex-direction: column;
         align-items: center;
         gap: 2rem;
-       overflow: hidden;
     }
 
     .Teducation{
@@ -2927,7 +2929,9 @@
         animation: grow 6s linear forwards;
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
         overflow: auto;
     }
 
@@ -2943,19 +2947,19 @@
     .timeline_education::after{
         content: '';
         width: 10px;
-        height: 100%;
+        height: 600px;
         background-color: red;
         position: absolute;
         top: 0;
-        left: 1%;
-        margin-left: -10px;
+        left: 15%;
+        
         z-index: -1;
     }
 
     .container_education{
-        padding: 10px;
+        padding: 1rem;
         position: relative;
-        width: 100%;
+        width: 70%;
         background-color: black;
         border-radius: 10px;
         animation: movedown 1s linear forwards;
@@ -2997,7 +3001,7 @@
     .text_education{
         color: white;
         position: relative;
-        padding: 2rem;
+        padding: 1.5rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
@@ -3016,24 +3020,24 @@
     }
 
     .education_title{
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
 
     .education_title span{
         color: red;
-        font-size: 2.4rem;
+        font-size: 1.5rem;
     }
 
     .education_subtitle{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .education_fechas{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .education_fechas span{
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: red;
     }
 
@@ -3075,6 +3079,7 @@
         border-right: 15px solid red;
         left: -15px;
     }
+
     /*ZONA CERTIFICADO*/
     .zona_certificados{
         width: 100%;
@@ -3084,7 +3089,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 5rem;
+        gap: 2rem;
+        padding: 1rem;
     }
 
     .TCertificados{
@@ -3098,7 +3104,7 @@
     }
 
     .box_certificados{
-        width: 90%;
+        width: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3452,8 +3458,8 @@
     }
 
     .skills_box{
-         width: 300px;
-        height: 300px;
+         width: 280px;
+        height: 280px;
         transition: 1.5s;
         transform-style: preserve-3d;
          padding: 5rem;
@@ -3532,16 +3538,19 @@
     }
 
     .contenido_proyectos{
-        width: 80%;
+        width: 90%;
         height: auto;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         gap: 2rem;
+        padding: 1rem;
     }
 
     .box_proyects{
-        width: 50%;
+        min-width: 30%;
+        max-width: 50%;
         aspect-ratio: 16 / 9;
         position: relative;
         display: flex;
@@ -3700,7 +3709,9 @@
         animation: grow 6s linear forwards;
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
         overflow: auto;
     }
 
@@ -3716,23 +3727,24 @@
     .timeline_education::after{
         content: '';
         width: 10px;
-        height: 100%;
+        height: 650px;
         background-color: red;
         position: absolute;
         top: 0;
-        left: 1%;
-        margin-left: -10px;
+        left: 10%;
+        margin-left: -5px;
         z-index: -1;
     }
 
     .container_education{
         padding: 5x;
         position: relative;
-        width: 100%;
+        width: 80%;
         background-color: black;
         border-radius: 10px;
         animation: movedown 1s linear forwards;
         opacity: 0;
+        padding: 1rem;
     }
 
     @keyframes movedown {
@@ -3779,7 +3791,7 @@
    
     .rigth_img{ 
         position: absolute;
-        left: 95%;
+        left: 90%;
         top: 5px;
         width: 48px;
         height: 48px;
@@ -4625,6 +4637,7 @@
     }
 
 }
+
 
 
 
