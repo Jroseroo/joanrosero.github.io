@@ -2964,6 +2964,24 @@
         border-radius: 10px;
         animation: movedown 1s linear forwards;
         opacity: 0;
+        view-timeline: --text;
+        view-time-line-axis: block;
+        animation-timeline: --text;
+        animation-name: showEfect;
+        animation-range: entry 25% cover 50%;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes showEfect {
+        0%{
+            opacity: 0;
+            scale: 25%;
+        }
+
+        100%{
+            opacity: 1;
+            scale: 100%;
+        }
     }
 
     @keyframes movedown {
@@ -4637,6 +4655,7 @@
     }
 
 }
+
 
 
 
