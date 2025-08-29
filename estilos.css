@@ -4616,7 +4616,7 @@
         margin: 20px auto;
         width: 80%;
         animation: grow 6s linear forwards;
-        animation-timeline: view();
+        
         display: flex;
         flex-direction: column;
         gap: 2rem;
@@ -4652,7 +4652,7 @@
         background-color: black;
         border-radius: 10px;
         animation: movedown 1s linear forwards;
-       animation-timeline: view();
+       
         opacity: 0;
        
     }
@@ -4870,6 +4870,7 @@
     }
 
 }
+
 
 
 
