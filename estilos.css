@@ -4375,6 +4375,8 @@
         transform-style: preserve-3d;
          padding: 5rem;
        border-radius: 10px;
+       animation: revel both;
+       animation-timeline: view(50% 20%);
     }
 
     .skill_a{
@@ -4668,23 +4670,13 @@
         width: 50%;
         background-color: black;
         border-radius: 10px;
-        /*animation: movedown 1s linear forwards;
-        opacity: 0;*/
-       animation: fadeUp both;
-       animation-timeline: view();
+        animation: movedown 1s linear forwards;
+        opacity: 0;
+
     }
 
-   @keyframes fadeUp{
-      from{
-         opacity: 0;
-         transform: translateY(10px) scale(0.5);
-      }
-      to{
-         opactiy: 1;
-         transform: translateY(0) scale(1);
-      }
    
-    }
+    
 
     @keyframes movedown {
         0%{
@@ -4698,23 +4690,21 @@
     }
 
     .container_education:nth-child(1){
-       /* animation-delay: 0s;*/
-       animation-range: entre 20% cover 40%;
+        animation-delay: 0s;
+       
     }
 
     .container_education:nth-child(2){
-      /*  animation-delay: 1s;*/
-        animation-range: entre 40% cover 60%;
+        animation-delay: 1s;
     }
 
     .container_education:nth-child(3){
-      /*  animation-delay: 2s;*/
-        animation-range: entre 60% cover 80%;
+        animation-delay: 2s;
     }
 
     .container_education:nth-child(4){
-      /*  animation-delay: 3s;*/
-        animation-range: entre 80% cover 100%;
+       animation-delay: 3s;
+        
     }
 
     .right_education{
@@ -4900,6 +4890,7 @@
     }
 
 }
+
 
 
 
