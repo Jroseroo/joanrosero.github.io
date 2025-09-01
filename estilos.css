@@ -610,7 +610,7 @@
     .container_education{
         padding: 10px;
         position: relative;
-        width: 100%;
+        width: 80%;
         background-color: black;
         border-radius: 10px;
         animation: movedown 1s linear forwards;
@@ -783,7 +783,7 @@
     }
 
     .box_certificados{
-        width: 80%;
+        width: 90%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -4890,6 +4890,7 @@
     }
 
 }
+
 
 
 
