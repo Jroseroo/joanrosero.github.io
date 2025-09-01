@@ -4375,8 +4375,8 @@
         transform-style: preserve-3d;
          padding: 5rem;
        border-radius: 10px;
-       animation: revel both;
-       animation-timeline: view(50% 20%);
+       /*animation: revel both;
+       animation-timeline: view(50% 20%);*/
     }
 
     .skill_a{
@@ -4890,6 +4890,7 @@
     }
 
 }
+
 
 
 
