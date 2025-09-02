@@ -298,8 +298,8 @@
     }
 
     .skills_box{
-         width: 200px;
-        height: 200px;
+         width: 180px;
+        height: 180px;
         transition: 1.5s;
         transform-style: preserve-3d;
          padding: 5rem;
@@ -4798,3 +4798,4 @@
     }
 
 }
+
