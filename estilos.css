@@ -3318,8 +3318,8 @@
     }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px){
-    * {
+@media (min-width: 1025px) and (max-width:1280px){
+   * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -4072,7 +4072,6 @@
     .contacto_icon{
         width: 20%;
     }
-
 }
 
 @media (min-width: 1281px){
@@ -4832,6 +4831,7 @@
     }
 
 }
+
 
 
 
