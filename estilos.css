@@ -3327,40 +3327,6 @@
         font-size: 10px;
     }
 
-   @view-transition{
-        navigation: auto;
-    }
-
-    ::view-transition-group(*){
-        animation-duration: 1s;
-    }
-
-    ::view-transition-old(root){
-        animation: slide-out-to-left 0.5s forwards;
-    }
-
-    ::view-transition-new(root){
-        animation: slide-in-from-rigth 0.5s forwards;
-    }
-
-    @keyframes slide-out-to-left {
-        from{
-            transform: translateX(0);
-        }
-        to{
-            transform: translateX(-100%);
-        }
-    }
-
-    @keyframes slide-in-from-rigth {
-        from{
-            transform: translateX(100%);
-        }
-        to{
-            transform: translateX(0);
-        }
-    }
-
    html{
       scroll-behavior: smooth;
    }
@@ -4889,6 +4855,7 @@
     }
 
 }
+
 
 
 
